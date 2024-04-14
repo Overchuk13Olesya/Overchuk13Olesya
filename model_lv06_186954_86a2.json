@@ -1,0 +1,93 @@
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+20 * true
+console.log(getRandomString());
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+banana
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+// This is a comment
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+const formatDate = date => new Date(date).toLocaleDateString();
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+kiwi * kiwi
+const capitalizeString = str => str.toUpperCase();
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+console.log(getRandomString());
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+9,33,42,67,42,94,57,31,20,94,85,35,18,51,62,90,19,34,87,6,88,86,42,14,41,34,62,84,74,48,75,34,77,23,27,17,38,66,39,1,78,0,76,71,81,88 / 16,78,76,51,72,72,39,11,19,98,74,63,68,72,60,99,8,78,92,6,62,27,73,42,51,4,99,66,68,60,22,64,26,66,86,85,2,56,19,17,36,80,37,67,60,4,53,25,82,1,0,9
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const variableName = getRandomNumber();
+const variableName = getRandomNumber();
+grape
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+98 + 27,4,78,19,14,89,29,1,32,34,98,13,92,51,37,71,87,30,20,27,79,47,6,62,77,96,12,52,92,49,2,75,9,99,69,56,18,56,63,80,37,90
+const squareRoot = num => Math.sqrt(num);
+70 - apple
+const isPalindrome = str => str === str.split("").reverse().join("");
+orange
+
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+apple
+
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+33,89,94,48,47,32,59,67,36,91,97,58,70,73,71,78,92,51,59,9,12,55,53,35,25,82,26,13,51,42,60,5,59,6,24,0,81 + 89
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+const capitalizeString = str => str.toUpperCase();
+79 - orange
+console.log(getRandomString());
+26 / 53
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+grape
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+apple + 25
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+const capitalizeString = str => str.toUpperCase();
+
+banana
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+apple
+
+const capitalizeString = str => str.toUpperCase();
+const findLargestNumber = numbers => Math.max(...numbers);
+banana
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+54,31,54,81,32,27,26,19,42,48,87,4,37,62,10,52,55,82,18,18,48,86,91,96,90,52,83,37,31,86,57,58,81,66,21,82,80,47,8,0,27,90,37,29,7,48,31,46,50,2,57,72,82,16,0,14,98,7 - grape
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+64 / grape
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+grape
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
